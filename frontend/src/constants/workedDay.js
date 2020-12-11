@@ -1,0 +1,6 @@
+export const workedDayActionTypes = {
+  CREATE: "CREATE_WORKED_DAY",
+  ADD_ALL: "ADD_ALL_WORKED_DAYS",
+  REMOVE: "REMOVE_WORKED_DAY",
+  UPDATE: "UPDATE_WORKED_DAY"
+}

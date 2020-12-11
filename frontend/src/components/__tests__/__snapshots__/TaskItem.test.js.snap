@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TaskItem /> matches previous snapshot 1`] = `
+<div
+  className="task"
+>
+  <h4
+    className="taskTitle"
+  >
+    <b>
+      Title:
+    </b>
+     
+    Task number 1
+  </h4>
+  <h5
+    className="taskDescription"
+  >
+    <b>
+      Description:
+    </b>
+     
+    Test a 
+  </h5>
+  <h5
+    className="taskPrice"
+  >
+    <b>
+      Price:
+    </b>
+     
+    500
+  </h5>
+  <h5
+    className="taskPaid"
+  >
+    not
+     
+    <b>
+      paid
+    </b>
+  </h5>
+  <h5
+    className="taskCompleted"
+  >
+    <b>
+      Uncompleted
+    </b>
+  </h5>
+  <Link
+    className="reactLink"
+    replace={false}
+    to="/project/undefined/Taskly/1/update"
+  >
+    <button
+      className="updateButton btn btn-warning"
+      type="button"
+    >
+      Update
+    </button>
+  </Link>
+  <button
+    className="removeButton btn btn-danger"
+    onClick={[Function]}
+    type="button"
+  >
+    Delete
+  </button>
+</div>
+`;
